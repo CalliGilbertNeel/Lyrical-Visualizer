@@ -67,7 +67,7 @@ def visualize_emotions(text):
 
 #pops up chart!
     plt.show()
-#file connection, asks for user input and runs visiualization function
+#entry, asks for user input and runs visiualization function
 if __name__ == "__main__":
     user_text = input(" What is one sentence from your favorite song? ")
     visualize_emotions(user_text)
